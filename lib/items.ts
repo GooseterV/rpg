@@ -163,6 +163,6 @@ export const Armor = {
 };
 
 
-export const weapons = Object.values(Weapons).map(i=>{return i.name;});
-export const armor = Object.values(Armor).map(i=>{return i.name;});
-export const items = armor.concat(weapons);
+export const weapons = Object.values(Weapons);
+export const armor = Object.values(Armor);
+export const items = (<any[]>armor).concat((<any>weapons));

@@ -69,7 +69,7 @@ export default function Market({ data }) {
 				<div className="gold-holder">
 					<div className="gold-wrapper">
 
-						<img className="gold-icon" src="/coin.png"></img>
+						<img className="gold-icon" src="/images/icons/coin.png"></img>
 
 					
 					
